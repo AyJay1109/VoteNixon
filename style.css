@@ -1,0 +1,63 @@
+html{
+    background-image: url("U.S Flag.jfif");
+}
+
+body{
+    text-align: left;
+    border-radius: 50px;
+    background-color: lightblue;
+}
+
+div{
+    font-size: larger;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    animation-name: pop-up;
+    animation-duration: 1.5s;
+}
+
+div button.Nixon{
+    cursor: url(Thumbsup.png), pointer;
+    padding: 0px 0px 0px;
+    position: relative;
+    size: 300px 400px;
+}
+
+div button.McG{
+    cursor: url(DisappointedEmoji.png), pointer;
+    padding: 0px 0px 0px;
+    position: relative;
+    size: 300px 400px;
+}
+
+img.Thumbsup{
+    width: 300px;
+    height: 400px;
+}
+
+.Nixon{
+    cursor: url(Thumbsup.png), pointer;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+h2{
+    font-size: 35px;
+    text-align: center;
+}
+
+@keyframes pop-up{
+    0%{
+        transform:scale(.1);
+    }
+    50%{
+        transform: scale (1.4);
+    }
+    100%{
+        transform: scale(1);
+    }
+}

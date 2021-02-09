@@ -1,0 +1,40 @@
+html{
+    background-image: url("NixonFlag.jpg");
+    background-repeat: no-repeat;
+    padding: unset;
+}
+
+body{
+    text-align: center;
+}
+
+h1{
+    color: red;
+}
+
+h2{
+    color: red;
+}
+
+pop-up{
+    animation-duration: 1.75s;
+}
+
+div img{
+    animation-duration: 1.75s;
+    animation-name: pop-up;
+    height: 550px;
+    width: 450px;
+}
+
+@keyframes pop-up{
+    0%{
+        transform:scale(.1);
+    }
+    50%{
+        transform: scale (1.4);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
